@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Crosscutting.DependencyInjectionFactory\Crosscutting.DependencyInjectionFactory.csproj" />
+    <ProjectReference Include="..\Data.Common\Data.Common.csproj" />
   </ItemGroup>
 
 </Project>
