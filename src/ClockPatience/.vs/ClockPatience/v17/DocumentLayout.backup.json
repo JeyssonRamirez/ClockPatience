@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0F264B9-AA76-4113-969E-8198E7D6C9BC}|Presentation.Console\\Presentation.Console.csproj|d:\\repos\\clockpatience\\src\\clockpatience\\presentation.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F264B9-AA76-4113-969E-8198E7D6C9BC}|Presentation.Console\\Presentation.Console.csproj|solutionrelative:presentation.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97BDF884-D26E-4891-95C5-27A571DF7EBE}|Crosscutting.Util\\Crosscutting.Util.csproj|d:\\repos\\clockpatience\\src\\clockpatience\\crosscutting.util\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97BDF884-D26E-4891-95C5-27A571DF7EBE}|Crosscutting.Util\\Crosscutting.Util.csproj|solutionrelative:crosscutting.util\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79C9D355-DBF0-4633-BD8A-185EF6199BB3}|Core.Entities\\Core.Entities.csproj|d:\\repos\\clockpatience\\src\\clockpatience\\core.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79C9D355-DBF0-4633-BD8A-185EF6199BB3}|Core.Entities\\Core.Entities.csproj|solutionrelative:core.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{26D4F4C9-BA80-4E11-A5A6-977AFC43DF24}|Application.Definition\\Application.Definition.csproj|solutionrelative:application.definition\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4F2F4EA-A668-4ECA-964F-DAA57FD0B0E2}|Application\\Application.csproj|d:\\repos\\clockpatience\\src\\clockpatience\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4F2F4EA-A668-4ECA-964F-DAA57FD0B0E2}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4F2F4EA-A668-4ECA-964F-DAA57FD0B0E2}|Application\\Application.Implementation.csproj|d:\\repos\\clockpatience\\src\\clockpatience\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F2F4EA-A668-4ECA-964F-DAA57FD0B0E2}|Application\\Application.Implementation.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Presentation.Console\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation.Console\\Program.cs",
+              "ToolTip": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Presentation.Console\\Program.cs",
+              "RelativeToolTip": "Presentation.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:48:50.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Crosscutting.Util\\Class1.cs",
+              "RelativeDocumentMoniker": "Crosscutting.Util\\Class1.cs",
+              "ToolTip": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Crosscutting.Util\\Class1.cs",
+              "RelativeToolTip": "Crosscutting.Util\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:42:45.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Core.Entities\\Class1.cs",
               "RelativeDocumentMoniker": "Core.Entities\\Class1.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Application.Definition\\Class1.cs",
               "RelativeDocumentMoniker": "Application.Definition\\Class1.cs",
@@ -47,12 +81,11 @@
               "RelativeToolTip": "Application.Definition\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:40:07.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T21:40:07.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Repos\\ClockPatience\\src\\ClockPatience\\Application\\Class1.cs",
               "RelativeDocumentMoniker": "Application\\Class1.cs",
@@ -60,8 +93,7 @@
               "RelativeToolTip": "Application\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:38:07.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T21:38:07.046Z"
             }
           ]
         }
