@@ -21,6 +21,7 @@ namespace Application
        
         public void Run()
         {
+            Console.WriteLine("Reading Decks");
             //read all decks from input
             var decks = _inputReader.ReadDecks();
 
