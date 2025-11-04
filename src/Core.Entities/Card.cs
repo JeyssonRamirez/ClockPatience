@@ -18,6 +18,6 @@ namespace Core.Entities
             return Type.ToInt();
         }
 
-        public override string ToString() => $"{Type.convertToString()}{Suit}";
+        public override string ToString() => $"{Type.GetStringValue()}{Suit}";
     }
 }

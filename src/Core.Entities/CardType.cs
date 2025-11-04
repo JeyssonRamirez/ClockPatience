@@ -9,7 +9,7 @@ namespace Core.Entities
         [StringValue("2")]
         Two = 2,
         [StringValue("3")]
-        Tree = 3,
+        Three = 3,
         [StringValue("4")]
         Four = 4,
         [StringValue("5")]
@@ -19,10 +19,10 @@ namespace Core.Entities
         [StringValue("7")]
         Seven = 7, 
         [StringValue("8")]
-        Eig = 8, 
+        Eight = 8, 
         [StringValue("9")]
         Nine = 9,
-        [StringValue("10")]
+        [StringValue("T")]
         Ten = 10, 
         [StringValue("J")]
         Jack = 11, 
