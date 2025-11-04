@@ -1,6 +1,6 @@
 ﻿namespace Data.Common
 {
-    public class InputReader : IInputReader
+    public class ConsoleInputReader : IInputReader
     {
         public List<List<string>> ReadDecks()
         {

@@ -1,5 +1,6 @@
 ﻿using Application;
 using Application.Definition;
+using Data.Common;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Crosscutting.DependencyInjectionFactory
@@ -8,7 +9,13 @@ namespace Crosscutting.DependencyInjectionFactory
     {
         public static IServiceCollection AddClockPatience(this IServiceCollection services)
         {
-            services.AddScoped<IClockPatienceService, ClockPatienceService>();
+
+            // Register dependencies
+            services.AddSingleton<IInputReader, ConsoleInputReader>();
+            services.AddSingleton<IOutputWriter, ConsoleOutputWriter>();
+            services.AddSingleton<ICardParser, CardParser>();
+            services.AddSingleton<IGameEngine, ClockPatienceGameEngine>();
+            services.AddSingleton<IClockPatienceService, ClockPatienceService>();
             return services;
         }
     }
