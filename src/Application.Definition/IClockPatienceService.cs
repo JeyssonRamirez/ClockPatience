@@ -2,6 +2,6 @@
 {
     public interface IClockPatienceService
     {
-
+        void Run();
     }
 }

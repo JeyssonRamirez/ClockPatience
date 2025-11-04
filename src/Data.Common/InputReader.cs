@@ -1,8 +1,8 @@
 ﻿namespace Data.Common
 {
-    public static class InputReader
+    public class InputReader : IInputReader
     {
-        public static List<List<string>> ReadDecks()
+        public List<List<string>> ReadDecks()
         {
             var result = new List<List<string>>();
             string line;

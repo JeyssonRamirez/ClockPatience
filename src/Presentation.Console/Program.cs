@@ -14,7 +14,7 @@ namespace Presentation.Console
                 .BuildServiceProvider();
 
             var service = serviceProvider.GetService<IClockPatienceService>();
-            var decks = InputReader.ReadDecks();
+            service.Run();
         }
     }
 }
